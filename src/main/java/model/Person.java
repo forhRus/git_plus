@@ -9,6 +9,17 @@ public class Person {
   private int age;
   //endregion
 
+  //region Methods
+  @Override
+  public String toString() {
+    return "Person{" +
+            "firstName='" + firstName + '\'' +
+            ", lastName='" + lastName + '\'' +
+            ", age=" + age +
+            '}';  }
+
+  //endregion
+  
   //region Consrtuctors
   public Person() {
   }
